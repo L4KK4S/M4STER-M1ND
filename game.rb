@@ -4,12 +4,12 @@
 
 class Game
 
-  attr_accessor :responses
+  attr_accessor :responses, :combinaison, :max_responses, :nb_responses
 
   # constructeur
   def initialize(array, max)
 
-    @combination = array
+    @combinaison = array
     @max_responses = max
     @nb_responses = 0
     @responses = Array.new(max) { [0, 0, 0, 0] }
@@ -17,34 +17,18 @@ class Game
   end
 
   # fonction d'affichage de la combinaison
-  def display
+  def display(combi)
 
-    for element in @combination
-
-      case element
-      when 1
-        print "J "
-      when 2
-        print "B "
-      when 3
-        print "R "
-      when 4
-        print "V "
-      when 5
-        print "C "
-      when 6
-        print "N "
-      else
-        print "? "
-      end
-
+    for element in combi
+      print "#{element} "
     end
+
     puts
 
   end
 
   # fonction d'affichage des essais
-  def tries
+  def tries()
 
     @responses.each_with_index do |response, index|
 
@@ -57,12 +41,12 @@ class Game
         for element in response
 
           # on vérifie si l'élément est dans la combinaison
-          if @combination.include?(element)
+          if @combinaison.include?(element)
             nb_good_color += 1
           end
 
           # on vérifie si l'élément est bien placé
-          @combination.each_with_index do |second_element, second_index|
+          @combinaison.each_with_index do |second_element, second_index|
             if element == second_element and index == second_index
              nb_good_placement += 1
             end
@@ -90,12 +74,12 @@ class Game
     guess.each_with_index do |element, index|
 
       # on vérifie si l'élément est dans la combinaison
-      if @combination.include?(element)
+      if @combinaison.include?(element)
         nb_good_color += 1
       end
 
       # on vérifie si l'élément est bien placé
-      @combination.each_with_index do |second_element, second_index|
+      @combinaison.each_with_index do |second_element, second_index|
         if element == second_element and index == second_index
           nb_good_placement += 1
         end
@@ -108,11 +92,11 @@ class Game
   end
 
   def win?
-    @combination == @responses.last
+    return @combinaison == @responses.last
   end
 
   def loose?
-    @nb_responses == @max_responses
+    return @nb_responses == @max_responses
   end
 
 end
