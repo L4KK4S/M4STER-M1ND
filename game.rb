@@ -7,12 +7,13 @@ class Game
   attr_accessor :responses, :combinaison, :max_responses, :nb_responses
 
   # constructeur
-  def initialize(array, max)
+  def initialize(array, max, nb)
 
     @combinaison = array
     @max_responses = max
+    @nb_pin = nb
     @nb_responses = 0
-    @responses = Array.new(max) { [0, 0, 0, 0] }
+    @responses = Array.new(max) {Array.new(@nb_pin, 0)}
 
   end
 

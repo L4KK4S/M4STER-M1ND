@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26a8022-6784-43ed-9526-0b7acb2b0490" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/game.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
@@ -116,6 +116,7 @@
       <workItem from="1712504716507" duration="3661000" />
       <workItem from="1712512567185" duration="2667000" />
       <workItem from="1712525971259" duration="6631000" />
+      <workItem from="1712700892500" duration="3229000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -150,6 +151,6 @@
     <SUITE FILE_PATH="coverage/M4ST3ER_M1ND@Main.rcov" NAME="Main Coverage Results" MODIFIED="1712497620507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="M4ST3ER M1ND" />
     <SUITE FILE_PATH="coverage/M4ST3ER_M1ND@main.rcov" NAME="main Coverage Results" MODIFIED="1712498049981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="M4ST3ER M1ND" />
     <SUITE FILE_PATH="coverage/M4ST3ER_M1ND@game.rcov" NAME="game Coverage Results" MODIFIED="1712498064955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="M4ST3ER M1ND" />
-    <SUITE FILE_PATH="coverage/M4ST3ER_M1ND@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1712532689069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="M4ST3ER M1ND" />
+    <SUITE FILE_PATH="coverage/M4ST3ER_M1ND@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1712705607374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="M4ST3ER M1ND" />
   </component>
 </project>
